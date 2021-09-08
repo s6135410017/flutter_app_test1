@@ -16,7 +16,7 @@ class _ThairdUIState extends State<ThairdUI> {
     ThirdAUI(),
     ThirdBUI(),
     ThirdCUI(),
-    ThairdUI(),
+    ThirdDUI(),
   ];
 
   int _currentIndex = 0; 
@@ -62,7 +62,7 @@ class _ThairdUIState extends State<ThairdUI> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.keyboard_arrow_up,
+              Icons.access_alarm_outlined,
             ),
             label: 'Page D',
           ),

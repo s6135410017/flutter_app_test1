@@ -5,8 +5,15 @@ class ThirdAUI extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      backgroundColor: Colors.green,
+      body: Center(
+        child: Icon(
+          Icons.home,
+          size: 150.0,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }
